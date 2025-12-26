@@ -8,7 +8,7 @@ dotenv.config();
 
 const API_KEY = process.env.GEMINI_API_KEY;
 const DATA_DIR = path.join(__dirname, "../jobs");
-const OUTPUT_FILE = path.join(__dirname, "../tech_stack_summary.md");
+const OUTPUT_FILE = path.join(__dirname, "../README.md");
 
 if (!API_KEY) {
   console.error("Error: GEMINI_API_KEY is not set in .env file.");
